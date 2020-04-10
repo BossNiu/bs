@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/list.css">
+  <script src="../js/jquery.js"></script>
+  <script src="../js/common.js"></script>
+</head>
+<body>
+  <a href="../index.html"><img src="../img/back.svg" alt="" class="back"></a>
+  <div class="container">
+    <ul class="list">
+      <!-- <li>
+        <img src="../img/tou.png" alt="">
+        <div class="con">
+          <p>
+            <span>匿名网友：</span>
+            <i>大撒旦大撒大撒大撒大大的撒大撒大撒大大的撒大撒大撒大大的撒大撒大撒大大的撒大撒大撒大大的撒大大大是</i>
+          </p>
+          <h5>大撒大苏打大苏打萨达萨萨达萨大撒大撒大大的撒大大撒大撒大大的撒大大撒大萨达萨大撒大撒大大的撒大大撒大撒大大的撒大大撒大萨达萨大撒大撒大大的撒大大撒大撒大大的撒大大撒大大撒大撒大大的撒大大撒大撒大大的撒大大撒大撒大大的撒大达萨达是</h5>
+        </div>
+        <div class="time">
+          <p>2020-09-20</p>
+        </div>
+      </li> -->
+    </ul>
+  </div>
+  <script>
+    $(function(){
+      $.ajax({
+        url:'http://182.92.173.180:8080/api/apidata/get_test_trends?trends=1',
+        type:'get',
+        dataType:'json',
+        success:function(res){
+          console.log(res);
+          if(res.status===1){
+            var str = '';
+            for(var i=7;i<res.data.length;i++){
+              str += `
+              <li>
+              <img src="../img/tou.png" alt="">
+              <div class="con">
+                <p>
+                  <span>匿名网友：</span>
+                  <i>${res.data[i].title}</i>
+                </p>
+                <h5>${res.data[i].keyword}</h5>
+              </div>
+              <div class="time">
+                <p>${res.data[i].content}</p>
+              </div>
+            </li>
+              `;
+            }
+            $('.list')[0].innerHTML = str;
+            console.log(str);
+          }
+        }
+      })
+    })()
+  </script>
+</body>
+</html>

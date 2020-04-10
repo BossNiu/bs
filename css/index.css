@@ -1,0 +1,1209 @@
+body,
+html {
+  scroll-behavior: smooth;
+  position: relative;
+}
+body .star,
+html .star {
+  position: absolute;
+  top: -30px;
+  left: -30px;
+}
+body .actGotop,
+html .actGotop {
+  position: fixed;
+  _position: absolute;
+  bottom: 100px;
+  right: 50px;
+  width: 150px;
+  height: 195px;
+  display: none;
+}
+body .actGotop a,
+html .actGotop a,
+body .actGotop a:link,
+html .actGotop a:link {
+  width: 150px;
+  height: 195px;
+  display: inline-block;
+  background: url(../img/blog7year_gotop.png) no-repeat;
+  _background: url(../img/blog7year_gotopd.gif) no-repeat;
+  outline: none;
+}
+body .actGotop a:hover,
+html .actGotop a:hover {
+  background: url(../img/blog7year_gotopd.gif) no-repeat;
+  outline: none;
+}
+body header .top,
+html header .top {
+  width: 100%;
+  height: 40px;
+  background-color: #ebdfdf;
+  border-bottom: solid 1px #c9baba;
+}
+body header .top p,
+html header .top p {
+  float: right;
+  margin-right: 60px;
+  margin-top: 10px;
+}
+body header .top p a,
+html header .top p a {
+  color: black;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+body header .top p a:hover,
+html header .top p a:hover {
+  color: #1bbb58;
+  font-weight: bold;
+}
+body header .banner,
+html header .banner {
+  width: 100%;
+  height: 640px;
+  background-image: url(http://m.tuniucdn.com/fb2/t1/G4/M00/24/31/Cii_J1mqb4KIed5PAD5zhcbyNe4AAAuIgLL_7cAPnOd070_w1536_h0_c0_t0.jpg);
+  background-size: cover;
+}
+body header .banner nav,
+html header .banner nav {
+  width: 100%;
+  height: 90px;
+  background-color: rgba(33, 68, 102, 0.678);
+  box-shadow: 0 2px 5px #213122;
+}
+body header .banner nav .logo,
+html header .banner nav .logo {
+  border-radius: 100%;
+  width: 80px;
+  height: 80px;
+  margin-top: 4px;
+  margin-left: 30px;
+  float: left;
+  overflow: hidden;
+}
+body header .banner nav .logo img,
+html header .banner nav .logo img {
+  width: 82px;
+  height: 82px;
+}
+body header .banner nav ul,
+html header .banner nav ul {
+  float: left;
+  height: 100%;
+  margin-left: 100px;
+}
+body header .banner nav ul li,
+html header .banner nav ul li {
+  float: left;
+  text-align: center;
+  padding: 20px 20px;
+  font-size: 16px;
+  margin-top: 16px;
+  letter-spacing: 2px;
+  transition: all 0.5s;
+  border-radius: 10px;
+}
+body header .banner nav ul li a,
+html header .banner nav ul li a {
+  color: white;
+}
+body header .banner nav ul li:hover,
+html header .banner nav ul li:hover {
+  border-bottom: solid 2px #19b8d4;
+}
+body header .banner nav ul li:hover a,
+html header .banner nav ul li:hover a {
+  color: #19b8d4;
+  font-weight: bold;
+}
+body header .banner nav ul .fuwu,
+html header .banner nav ul .fuwu {
+  position: relative;
+}
+body header .banner nav ul .fuwu ul,
+html header .banner nav ul .fuwu ul {
+  display: none;
+  position: absolute;
+  width: 160px;
+  height: 310px;
+  background-color: rgba(77, 66, 66, 0.481);
+  top: 55px;
+  left: -125px;
+  border-radius: 10px;
+}
+body header .banner nav ul .fuwu ul:hover,
+html header .banner nav ul .fuwu ul:hover {
+  display: block;
+}
+body header .banner nav ul .fuwu:hover ul,
+html header .banner nav ul .fuwu:hover ul {
+  display: block;
+}
+body header .banner nav ul .shequ,
+html header .banner nav ul .shequ {
+  position: relative;
+}
+body header .banner nav ul .shequ ul,
+html header .banner nav ul .shequ ul {
+  display: none;
+  position: absolute;
+  width: 160px;
+  height: 180px;
+  background-color: rgba(77, 66, 66, 0.481);
+  top: 55px;
+  left: -125px;
+  border-radius: 10px;
+}
+body header .banner nav ul .shequ ul:hover,
+html header .banner nav ul .shequ ul:hover {
+  display: block;
+}
+body header .banner nav ul .shequ:hover ul,
+html header .banner nav ul .shequ:hover ul {
+  display: block;
+}
+body header .banner p,
+html header .banner p {
+  color: white;
+  font-size: 48px;
+  margin-left: 200px;
+  margin-top: 100px;
+  letter-spacing: 6px;
+  user-select: none;
+}
+body header .banner h3,
+html header .banner h3 {
+  color: wheat;
+  font-size: 18px;
+  margin-top: 30px;
+  margin-left: 380px;
+  letter-spacing: 2px;
+  user-select: none;
+}
+body section #scenery,
+html section #scenery {
+  width: 100%;
+}
+body section #scenery h2,
+html section #scenery h2 {
+  text-align: center;
+  font-size: 38px;
+  margin-top: 50px;
+  color: rgba(7, 3, 3, 0.671);
+}
+body section #scenery h3,
+html section #scenery h3 {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 10px;
+  color: rgba(7, 3, 3, 0.322);
+}
+body section #scenery .first_line,
+html section #scenery .first_line {
+  width: 100%;
+  height: 300px;
+  margin-top: 20px;
+}
+body section #scenery .first_line .one,
+html section #scenery .first_line .one {
+  width: 40%;
+  height: 100%;
+  background: greenyellow;
+  float: left;
+  margin-left: 7.5%;
+  background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1584008906821&di=9d4fabc992bf7e7bcde892623e3e5a8f&imgtype=0&src=http%3A%2F%2Fdimg04.c-ctrip.com%2Fimages%2Fvacations%2Fimages2%2F1%2F9%2F9_745_s38660.jpg);
+  background-size: 540px;
+  transition: all 0.5s;
+}
+body section #scenery .first_line .one p,
+html section #scenery .first_line .one p {
+  font-size: 22px;
+  color: #ffffff;
+  margin-top: 180px;
+  margin-left: 40px;
+}
+body section #scenery .first_line .one h3,
+html section #scenery .first_line .one h3 {
+  color: white;
+  font-size: 14px;
+  font-weight: normal;
+  margin-left: -70px;
+  margin-top: 30px;
+}
+body section #scenery .first_line .one:hover,
+html section #scenery .first_line .one:hover {
+  background-size: 600px;
+  cursor: pointer;
+}
+body section #scenery .first_line .one:hover p,
+html section #scenery .first_line .one:hover p {
+  color: #19b8d4;
+}
+body section #scenery .first_line .two,
+html section #scenery .first_line .two {
+  width: 40%;
+  height: 100%;
+  background: greenyellow;
+  float: left;
+  margin-left: 5%;
+  background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1584010145636&di=71cdf3196042704eb0b2eed35915be74&imgtype=0&src=http%3A%2F%2Fbbs-fd.zol-img.com.cn%2Ft_s1200x5000%2Fg1%2FM08%2F0F%2F07%2FCg-4jVOxEaCIfdMmAAd0PU8GoWcAAOtgAGYxAoAB3RV396.jpg);
+  background-size: 540px;
+  transition: all 0.5s;
+}
+body section #scenery .first_line .two p,
+html section #scenery .first_line .two p {
+  font-size: 22px;
+  color: #ffffff;
+  margin-top: 180px;
+  margin-left: 40px;
+}
+body section #scenery .first_line .two h3,
+html section #scenery .first_line .two h3 {
+  color: white;
+  font-size: 14px;
+  font-weight: normal;
+  margin-left: -160px;
+  margin-top: 30px;
+}
+body section #scenery .first_line .two:hover,
+html section #scenery .first_line .two:hover {
+  background-size: 600px;
+  cursor: pointer;
+}
+body section #scenery .first_line .two:hover p,
+html section #scenery .first_line .two:hover p {
+  color: #19b8d4;
+}
+body section #scenery .second_line,
+html section #scenery .second_line {
+  width: 100%;
+  height: 600px;
+  margin-top: 20px;
+}
+body section #scenery .second_line .three,
+html section #scenery .second_line .three {
+  width: 25%;
+  height: 100%;
+  background: greenyellow;
+  float: left;
+  margin-left: 7.5%;
+  background-image: url(http://img2.imgtn.bdimg.com/it/u=3247720921,3400006625&fm=26&gp=0.jpg);
+  background-size: 540px;
+  transition: all 0.5s;
+}
+body section #scenery .second_line .three p,
+html section #scenery .second_line .three p {
+  font-size: 22px;
+  color: #ffffff;
+  margin-top: 400px;
+  margin-left: 40px;
+}
+body section #scenery .second_line .three h3,
+html section #scenery .second_line .three h3 {
+  color: white;
+  font-size: 14px;
+  font-weight: normal;
+  margin-left: -170px;
+  margin-top: 30px;
+}
+body section #scenery .second_line .three:hover,
+html section #scenery .second_line .three:hover {
+  background-size: 600px;
+  cursor: pointer;
+}
+body section #scenery .second_line .three:hover p,
+html section #scenery .second_line .three:hover p {
+  color: #19b8d4;
+}
+body section #scenery .second_line .right,
+html section #scenery .second_line .right {
+  float: left;
+}
+body section #scenery .second_line .right .four,
+html section #scenery .second_line .right .four {
+  float: left;
+  height: 275px;
+  width: 362px;
+  background: url(https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=702596611,2368112855&fm=26&gp=0.jpg);
+  margin-left: 40px;
+  background-size: 540px;
+  transition: all 0.5s;
+}
+body section #scenery .second_line .right .four p,
+html section #scenery .second_line .right .four p {
+  font-size: 22px;
+  color: #ffffff;
+  margin-top: 160px;
+  margin-left: 40px;
+}
+body section #scenery .second_line .right .four h3,
+html section #scenery .second_line .right .four h3 {
+  color: white;
+  font-size: 14px;
+  font-weight: normal;
+  margin-left: -170px;
+  margin-top: 30px;
+}
+body section #scenery .second_line .right .four:hover,
+html section #scenery .second_line .right .four:hover {
+  background-size: 600px;
+  cursor: pointer;
+}
+body section #scenery .second_line .right .four:hover p,
+html section #scenery .second_line .right .four:hover p {
+  color: #19b8d4;
+}
+body section #scenery .second_line .right .five,
+html section #scenery .second_line .right .five {
+  float: left;
+  height: 275px;
+  width: 362px;
+  background: url(http://www.lzlvyou.com.cn/uploads/allimg/141205/1-1412051R051.jpg);
+  margin-left: 40px;
+  background-size: 430px;
+  transition: all 0.5s;
+}
+body section #scenery .second_line .right .five p,
+html section #scenery .second_line .right .five p {
+  font-size: 22px;
+  color: #ffffff;
+  margin-top: 160px;
+  margin-left: 40px;
+}
+body section #scenery .second_line .right .five h3,
+html section #scenery .second_line .right .five h3 {
+  color: white;
+  font-size: 14px;
+  font-weight: normal;
+  margin-left: -130px;
+  margin-top: 30px;
+}
+body section #scenery .second_line .right .five:hover,
+html section #scenery .second_line .right .five:hover {
+  background-size: 490px;
+  cursor: pointer;
+}
+body section #scenery .second_line .right .five:hover p,
+html section #scenery .second_line .right .five:hover p {
+  color: #19b8d4;
+}
+body section #scenery .second_line .right .six,
+html section #scenery .second_line .right .six {
+  height: 275px;
+  margin-top: 324px;
+  width: 764px;
+  margin-left: 40px;
+  background: url(https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1582693244,859745448&fm=26&gp=0.jpg);
+  background-size: 800px;
+  transition: all 0.5s;
+}
+body section #scenery .second_line .right .six p,
+html section #scenery .second_line .right .six p {
+  font-size: 22px;
+  color: #ffffff;
+  padding-top: 80px;
+  margin-left: 40px;
+}
+body section #scenery .second_line .right .six h3,
+html section #scenery .second_line .right .six h3 {
+  color: white;
+  font-size: 14px;
+  font-weight: normal;
+  margin-left: -610px;
+  margin-top: 30px;
+}
+body section #scenery .second_line .right .six:hover,
+html section #scenery .second_line .right .six:hover {
+  background-size: 870px;
+  cursor: pointer;
+}
+body section #scenery .second_line .right .six:hover p,
+html section #scenery .second_line .right .six:hover p {
+  color: #19b8d4;
+}
+body section #culture,
+html section #culture {
+  width: 100%;
+}
+body section #culture h2,
+html section #culture h2 {
+  text-align: center;
+  font-size: 38px;
+  margin-top: 50px;
+  color: rgba(7, 3, 3, 0.671);
+}
+body section #culture h3,
+html section #culture h3 {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 10px;
+  color: rgba(7, 3, 3, 0.322);
+}
+body section .box,
+html section .box {
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+body section .box .box1,
+html section .box .box1 {
+  width: 350px;
+  height: 500px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(128, 128, 128, 0.466);
+  transition: all 0.5s;
+}
+body section .box .box1 h4,
+html section .box .box1 h4 {
+  color: #585858;
+  font-size: 18px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+body section .box .box1 img,
+html section .box .box1 img {
+  width: 350px;
+  height: 200px;
+  margin-top: 20px;
+}
+body section .box .box1 h5,
+html section .box .box1 h5 {
+  padding: 0 12px;
+  margin-top: 20px;
+  color: #585858;
+  font-size: 16px;
+  line-height: 1.5;
+  height: 50px;
+}
+body section .box .box1 p,
+html section .box .box1 p {
+  height: 100px;
+  margin-top: 10px;
+  padding: 0 12px;
+  line-height: 1.5;
+  font-size: 12px;
+  color: rgba(128, 128, 128, 0.849);
+}
+body section .box .box1 a,
+html section .box .box1 a {
+  color: #2abed1;
+  margin-left: 20px;
+  font-size: 18px;
+}
+body section .box .box1:hover,
+html section .box .box1:hover {
+  box-shadow: 0 0 20px rgba(128, 128, 128, 0.9);
+}
+body section .box .box2,
+html section .box .box2 {
+  width: 350px;
+  height: 500px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(128, 128, 128, 0.466);
+  transition: all 0.5s;
+}
+body section .box .box2 h4,
+html section .box .box2 h4 {
+  color: #585858;
+  font-size: 18px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+body section .box .box2 img,
+html section .box .box2 img {
+  width: 350px;
+  height: 200px;
+  margin-top: 20px;
+}
+body section .box .box2 h5,
+html section .box .box2 h5 {
+  padding: 0 12px;
+  margin-top: 20px;
+  color: #585858;
+  font-size: 16px;
+  line-height: 1.5;
+  height: 50px;
+}
+body section .box .box2 p,
+html section .box .box2 p {
+  height: 100px;
+  margin-top: 10px;
+  padding: 0 12px;
+  line-height: 1.5;
+  font-size: 12px;
+  color: rgba(128, 128, 128, 0.849);
+}
+body section .box .box2 a,
+html section .box .box2 a {
+  color: #2abed1;
+  margin-left: 20px;
+  font-size: 18px;
+}
+body section .box .box2:hover,
+html section .box .box2:hover {
+  box-shadow: 0 0 20px rgba(128, 128, 128, 0.9);
+}
+body section .box .box3,
+html section .box .box3 {
+  width: 350px;
+  height: 500px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(128, 128, 128, 0.466);
+  transition: all 0.5s;
+}
+body section .box .box3 h4,
+html section .box .box3 h4 {
+  color: #585858;
+  font-size: 18px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+body section .box .box3 img,
+html section .box .box3 img {
+  width: 350px;
+  height: 200px;
+  margin-top: 20px;
+}
+body section .box .box3 h5,
+html section .box .box3 h5 {
+  padding: 0 12px;
+  margin-top: 20px;
+  color: #585858;
+  font-size: 16px;
+  line-height: 1.5;
+  height: 50px;
+}
+body section .box .box3 p,
+html section .box .box3 p {
+  height: 100px;
+  margin-top: 10px;
+  padding: 0 12px;
+  line-height: 1.5;
+  font-size: 12px;
+  color: rgba(128, 128, 128, 0.849);
+}
+body section .box .box3 a,
+html section .box .box3 a {
+  color: #2abed1;
+  margin-left: 20px;
+  font-size: 18px;
+}
+body section .box .box3:hover,
+html section .box .box3:hover {
+  box-shadow: 0 0 20px rgba(128, 128, 128, 0.9);
+}
+body section #news,
+html section #news {
+  width: 100%;
+}
+body section #news h2,
+html section #news h2 {
+  text-align: center;
+  font-size: 38px;
+  margin-top: 50px;
+  color: rgba(7, 3, 3, 0.671);
+}
+body section #news .xinwen,
+html section #news .xinwen {
+  float: left;
+  width: 550px;
+  height: 400px;
+  background-color: rgba(21, 141, 197);
+  margin-top: 50px;
+  margin-left: 150px;
+}
+body section #news .xinwen h5,
+html section #news .xinwen h5 {
+  font-size: 22px;
+  color: white;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+body section #news .xinwen ul,
+html section #news .xinwen ul {
+  padding: 20px 30px;
+  width: 100%;
+  box-sizing: border-box;
+}
+body section #news .xinwen ul li,
+html section #news .xinwen ul li {
+  width: 100%;
+  height: 30px;
+}
+body section #news .xinwen ul li a,
+html section #news .xinwen ul li a {
+  float: left;
+  color: white;
+  font-size: 14px;
+  width: 370px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+body section #news .xinwen ul li span,
+html section #news .xinwen ul li span {
+  float: right;
+  color: white;
+  font-size: 14px;
+}
+body section #news .gonggao,
+html section #news .gonggao {
+  width: 480px;
+  height: 400px;
+  float: left;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+body section #news .gonggao .gg1,
+html section #news .gonggao .gg1 {
+  background-color: #ef4a44;
+  width: 100%;
+  height: 60%;
+  overflow: hidden;
+}
+body section #news .gonggao .gg1 h5,
+html section #news .gonggao .gg1 h5 {
+  font-size: 22px;
+  color: white;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+body section #news .gonggao .gg1 ul,
+html section #news .gonggao .gg1 ul {
+  padding: 20px 30px;
+  width: 100%;
+  box-sizing: border-box;
+}
+body section #news .gonggao .gg1 ul li,
+html section #news .gonggao .gg1 ul li {
+  width: 100%;
+  height: 30px;
+}
+body section #news .gonggao .gg1 ul li a,
+html section #news .gonggao .gg1 ul li a {
+  float: left;
+  color: white;
+  font-size: 14px;
+  width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+body section #news .gonggao .gg1 ul li span,
+html section #news .gonggao .gg1 ul li span {
+  float: right;
+  color: white;
+  font-size: 14px;
+}
+body section #news .gonggao .gg2,
+html section #news .gonggao .gg2 {
+  background-color: #ee7933;
+  width: 100%;
+  height: 40%;
+}
+body section #news .gonggao .gg2 ul,
+html section #news .gonggao .gg2 ul {
+  padding: 20px 30px;
+  width: 100%;
+  box-sizing: border-box;
+}
+body section #news .gonggao .gg2 ul li,
+html section #news .gonggao .gg2 ul li {
+  width: 100%;
+  height: 30px;
+}
+body section #news .gonggao .gg2 ul li a,
+html section #news .gonggao .gg2 ul li a {
+  float: left;
+  color: white;
+  font-size: 14px;
+  width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+body section #news .gonggao .gg2 ul li span,
+html section #news .gonggao .gg2 ul li span {
+  float: right;
+  color: white;
+  font-size: 14px;
+}
+body section #weather,
+html section #weather {
+  width: 100%;
+  padding-top: 50px;
+  clear: both;
+}
+body section #weather .skin2,
+html section #weather .skin2 {
+  display: inline-block;
+  border: 3px solid #2cbb9c;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 0, 0.342);
+  margin-top: 60px;
+  margin-left: 140px;
+  box-shadow: 0 0 10px gray;
+}
+body section #weather .skin2 .top,
+html section #weather .skin2 .top {
+  font-size: 14px;
+  overflow: hidden;
+  border-bottom: 1px solid #2cbb9c;
+  padding: 20px;
+  text-align: center;
+}
+body section #weather .skin2 .mid,
+html section #weather .skin2 .mid {
+  overflow: hidden;
+  border-bottom: 1px solid #2cbb9c;
+  padding: 20px;
+}
+body section #weather .skin2 .mid .fl,
+html section #weather .skin2 .mid .fl {
+  float: left;
+  margin: 10px;
+}
+body section #weather .skin2 .mid .fl img,
+html section #weather .skin2 .mid .fl img {
+  height: 140px;
+}
+body section #weather .skin2 .mid .fr,
+html section #weather .skin2 .mid .fr {
+  float: right;
+  padding: 20px;
+}
+body section #weather .skin2 .mid .fr h2,
+html section #weather .skin2 .mid .fr h2 {
+  font-size: 20px;
+  line-height: 28px;
+  margin: 0;
+}
+body section #weather .skin2 .mid .fr p,
+html section #weather .skin2 .mid .fr p {
+  font-size: 20px;
+  line-height: 38px;
+  margin-top: 20px;
+}
+body section #weather .skin2 .bot,
+html section #weather .skin2 .bot {
+  font-size: 16px;
+  padding: 20px;
+}
+body section #weather .skin2 .bot ul,
+html section #weather .skin2 .bot ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body section #weather .skin2 .bot li,
+html section #weather .skin2 .bot li {
+  border-top: 1px dashed #2cbb9c;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+body section #weather .skin2 .bot li:first-child,
+html section #weather .skin2 .bot li:first-child {
+  border-top: 0;
+  padding-top: 0;
+  margin-top: 0;
+}
+body section #weather .skin2 .bot li *,
+html section #weather .skin2 .bot li * {
+  display: inline-block;
+  vertical-align: top;
+}
+body section #weather .skin2 .bot li em,
+html section #weather .skin2 .bot li em {
+  font-style: normal;
+  width: 100px;
+}
+body section #weather .skin2 .bot li span,
+html section #weather .skin2 .bot li span {
+  font-style: normal;
+  width: 117px;
+}
+body section #weather .skin2 .bot li strong,
+html section #weather .skin2 .bot li strong {
+  font-style: normal;
+  width: 117px;
+}
+body section #weather h2,
+html section #weather h2 {
+  text-align: center;
+  font-size: 38px;
+  color: rgba(7, 3, 3, 0.671);
+}
+body section #weather .local,
+html section #weather .local {
+  position: absolute;
+  top: 3200px;
+  left: 600px;
+  font-size: 22px;
+  text-shadow: 0 0 5px gray;
+  color: #474646;
+  letter-spacing: 2px;
+}
+body section #weather .local2,
+html section #weather .local2 {
+  position: absolute;
+  top: 3300px;
+  left: 450px;
+  border-radius: 10px;
+  border: solid 3px #2cbb9c;
+  padding-top: 30px;
+  background-color: rgba(255, 255, 0, 0.342);
+  box-shadow: 0 0 10px gray;
+}
+body section #order,
+html section #order {
+  width: 100%;
+  padding: 0 100px;
+  box-sizing: border-box;
+  margin-top: 400px;
+}
+body section #order h2,
+html section #order h2 {
+  text-align: center;
+  font-size: 38px;
+  margin-top: 50px;
+  color: rgba(7, 3, 3, 0.671);
+}
+body section #order .home_wrap,
+html section #order .home_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-around;
+  height: 1100px;
+}
+body section #order .home_wrap .home,
+html section #order .home_wrap .home {
+  width: 350px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(128, 128, 128, 0.466);
+  transition: all 0.5s;
+}
+body section #order .home_wrap .home img,
+html section #order .home_wrap .home img {
+  width: 350px;
+  height: 280px;
+}
+body section #order .home_wrap .home h6,
+html section #order .home_wrap .home h6 {
+  padding: 20px;
+}
+body section #order .home_wrap .home h6 span,
+html section #order .home_wrap .home h6 span {
+  float: left;
+  font-size: 16px;
+  color: #313131;
+  font-weight: bold;
+}
+body section #order .home_wrap .home h6 i,
+html section #order .home_wrap .home h6 i {
+  float: right;
+  font-style: normal;
+  font-size: 16px;
+  color: #313131;
+  font-weight: bold;
+}
+body section #order .home_wrap .home .line,
+html section #order .home_wrap .home .line {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 310px;
+  height: 2px;
+  background-color: rgba(128, 128, 128, 0.336);
+}
+body section #order .home_wrap .home p,
+html section #order .home_wrap .home p {
+  padding: 20px;
+  font-size: 14px;
+  color: gray;
+  height: 60px;
+}
+body section #order .home_wrap .home a,
+html section #order .home_wrap .home a {
+  display: block;
+  width: 100px;
+  height: 40px;
+  background-color: #1a98be;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  margin-left: 20px;
+}
+body section #order .home_wrap .home:hover,
+html section #order .home_wrap .home:hover {
+  box-shadow: 0 0 20px rgba(128, 128, 128, 0.9);
+}
+body footer,
+html footer {
+  margin-top: 80px;
+  /*页脚*/
+}
+body footer .product-number-info,
+html footer .product-number-info {
+  position: relative;
+  background-color: #292929;
+  z-index: -1;
+}
+body footer .product-number-info .product-number-inner,
+html footer .product-number-info .product-number-inner {
+  width: 1200px;
+  margin: 0 auto;
+}
+body footer .product-number-info ul,
+html footer .product-number-info ul {
+  padding: 85px 0;
+}
+body footer .product-number-info ul.q:after,
+html footer .product-number-info ul.q:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+body footer .product-number-info li,
+html footer .product-number-info li {
+  float: left;
+  width: 239px;
+  height: 90px;
+  border-left: 1px solid #3c3c3c;
+  color: #fff;
+  padding-top: 1px;
+}
+body footer .product-number-info li:first-child,
+html footer .product-number-info li:first-child {
+  border: none;
+}
+body footer .product-number-info li b,
+html footer .product-number-info li b {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1;
+  display: inline-block;
+  position: relative;
+  margin: 15px 0 10px;
+}
+body footer .product-number-info li b i,
+html footer .product-number-info li b i {
+  font-style: normal;
+}
+body footer .product-number-info li b sup,
+html footer .product-number-info li b sup {
+  position: absolute;
+  font-size: 20px;
+  right: -15px;
+  top: -3px;
+}
+body footer .product-number-info li b em,
+html footer .product-number-info li b em {
+  font-style: normal;
+  font-size: 28px;
+  font-weight: 100;
+  padding-left: 2px;
+  position: relative;
+  top: -4px;
+}
+body footer .product-number-info li p,
+html footer .product-number-info li p {
+  font-size: 14px;
+}
+body footer .product-number-info li.li-2 b,
+html footer .product-number-info li.li-2 b,
+body footer .product-number-info li.li-2 p,
+html footer .product-number-info li.li-2 p {
+  padding-left: 70px;
+}
+body footer .product-number-info li.li-3 b,
+html footer .product-number-info li.li-3 b,
+body footer .product-number-info li.li-3 p,
+html footer .product-number-info li.li-3 p {
+  padding-left: 70px;
+}
+body footer .product-number-info li.li-3 b,
+html footer .product-number-info li.li-3 b,
+body footer .product-number-info li.li-3 p,
+html footer .product-number-info li.li-3 p {
+  padding-left: 70px;
+}
+body footer .product-number-info li.li-4 b,
+html footer .product-number-info li.li-4 b,
+body footer .product-number-info li.li-4 p,
+html footer .product-number-info li.li-4 p {
+  padding-left: 78px;
+}
+body footer .product-number-info li.li-5,
+html footer .product-number-info li.li-5 {
+  text-align: right;
+}
+body footer .product-number-info li.li-5 b,
+html footer .product-number-info li.li-5 b {
+  padding-right: 2px;
+}
+body footer .copyright,
+html footer .copyright {
+  padding-top: 79px;
+  border-top: 1px solid #ededed;
+}
+body footer .copyright_c,
+html footer .copyright_c {
+  height: 313px;
+  width: 1200px;
+  margin: 0 auto;
+}
+body footer .copyright_head,
+html footer .copyright_head {
+  height: 247px;
+  overflow: hidden;
+  border-bottom: 1px solid #ededed;
+}
+body footer .copyright_L,
+html footer .copyright_L {
+  float: left;
+  width: 406px;
+}
+body footer .copyright_L p,
+html footer .copyright_L p {
+  display: block;
+  width: 381px;
+  height: 48px;
+  margin-bottom: 26px;
+}
+body footer .copyright_L p img,
+html footer .copyright_L p img {
+  width: 80px;
+}
+body footer .copyright_L span,
+html footer .copyright_L span {
+  display: block;
+  overflow: hidden;
+  margin-bottom: 4px;
+}
+body footer .copyright_L span em,
+html footer .copyright_L span em {
+  display: block;
+  float: left;
+  font-size: 14px;
+  color: #888;
+  line-height: 30px;
+}
+body footer .copyright_L span strong,
+html footer .copyright_L span strong {
+  display: block;
+  float: left;
+  font-size: 24px;
+  color: #f90;
+  line-height: 30px;
+}
+body footer .copyright_L span a,
+html footer .copyright_L span a {
+  display: block;
+  float: left;
+  width: 70px;
+  height: 30px;
+  border-radius: 3px;
+  overflow: hidden;
+  background: url(../img/QQ.png) #03d3ff no-repeat 11px center;
+  padding-left: 35px;
+  font-size: 14px;
+  color: #FFF;
+  line-height: 30px;
+  margin-right: 10px;
+}
+body footer .copyright_L span:last-child,
+html footer .copyright_L span:last-child {
+  padding-top: 10px;
+}
+body footer .copyright_C,
+html footer .copyright_C {
+  float: left;
+  overflow: hidden;
+}
+body footer .copyright_C_list,
+html footer .copyright_C_list {
+  float: left;
+  padding-top: 24px;
+}
+body footer .copyright_C_list p,
+html footer .copyright_C_list p {
+  display: block;
+  font-size: 18px;
+  color: #333;
+  padding-bottom: 28px;
+}
+body footer .about,
+html footer .about {
+  overflow: hidden;
+  margin-bottom: 22px;
+}
+body footer .about a,
+html footer .about a {
+  display: block;
+  font-size: 12px;
+  color: #666;
+  float: left;
+  margin-right: 24px;
+}
+body footer .about a:hover,
+html footer .about a:hover {
+  color: #3fc7ff;
+}
+body footer .copyright_C_list:nth-child(2),
+html footer .copyright_C_list:nth-child(2) {
+  margin-left: 114px;
+  margin-right: 46px;
+}
+body footer .copyright_R,
+html footer .copyright_R {
+  float: right;
+  width: 150px;
+}
+body footer .copyright_R span,
+html footer .copyright_R span {
+  display: block;
+  width: 122px;
+  height: 122px;
+  border: 1px solid #ededed;
+  padding: 13px;
+}
+body footer .copyright_R span img,
+html footer .copyright_R span img {
+  width: 100%;
+}
+body footer .copyright_R p,
+html footer .copyright_R p {
+  display: block;
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+  padding-top: 18px;
+}
+body footer .copyright_bottom,
+html footer .copyright_bottom {
+  height: 65px;
+  overflow: hidden;
+}
+body footer .copyright_bottom span,
+html footer .copyright_bottom span {
+  display: block;
+  line-height: 65px;
+  font-size: 12px;
+  color: #a9a9a9;
+  float: left;
+}
+body footer .copyright_bottom p,
+html footer .copyright_bottom p {
+  display: block;
+  line-height: 65px;
+  font-size: 12px;
+  color: #a9a9a9;
+  float: right;
+}

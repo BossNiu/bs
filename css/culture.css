@@ -1,0 +1,44 @@
+.back {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 40px;
+  height: 40px;
+}
+header h2 {
+  text-align: center;
+  color: #000000cb;
+  margin-top: 40px;
+  font-size: 30px;
+}
+section {
+  padding: 100px 100px;
+}
+section .content h3 {
+  margin-top: 30px;
+}
+section .content h3 span {
+  float: left;
+  color: #000000cb;
+  font-size: 20px;
+}
+section .content h3 img {
+  float: left;
+  margin-left: 10px;
+  margin-top: -2px;
+}
+section .content .con {
+  clear: both;
+  padding-top: 30px;
+}
+section .content .con .logo {
+  width: 500px;
+  height: 300px;
+}
+section .content .con p {
+  font-size: 14px;
+  color: #000000cb;
+  line-height: 24px;
+  margin-top: 10px;
+  text-indent: 30px;
+}

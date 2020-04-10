@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "consola";
+  src: url("consola.woff2") format("woff2"),
+       url("consola.woff") format("woff"),
+       url("consola.ttf") format("truetype"),
+       url("consola.eot") format("embedded-opentype"),
+       url("consola.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}

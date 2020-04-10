@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0" />
+		<title>Publish news</title>
+	
+		<link href="../css/publish.css" rel="stylesheet" type="text/css" />
+		<script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+		<script type="text/javascript" src="../js/froala_editor.pkgd.min.js"></script>
+		<style>
+      .back {width: 50px;height: 50px;position: relative;top: 20px;left: 40px;}
+			html { height:100%; }
+			body { padding: 0; margin: 0; height:100%; }
+			.wrapper { max-width:980px; margin:0 auto; box-sizing:border-box; }
+			.article_editor { background:#F5F5F5; padding:80px 0; font-size:0; box-sizing:border-box; position:relative; }
+			.article_editor_page { background:#FFFFFF; padding:60px; box-sizing:border-box; border:1px solid #EEEEEE; /*box-shadow:0 1px 5px 0 rgba(0,0,0,0.05);*/ }
+			.article_editor_title input { width:100%; border:0; padding:0; margin:0; outline:0; height:30px; font-size:24px; font-weight:500; margin-bottom:10px; }
+			.article_editor_toolbar { position:absolute; top:0; left:0; width:100%; z-index:9999999999; }
+			.article_editor_info { padding-bottom:5px; margin-bottom:20px; border-bottom:1px solid #EEEEEE; }
+			.article_editor_info span { display:inline-block; vertical-align:top; font-size:14px; padding:0; border:0; height:30px; line-height:30px; color:#999999; outline:0; padding-right:5px; cursor:text; }
+			.article_editor_info input { display:inline-block; vertical-align:top; font-size:14px; padding:0; border:0; height:30px; outline:0; }
+			.article_editor_info input.l { width:150px; }
+			.article_editor_info input.s { width:60px; }
+			.article_editor_info select { display:inline-block; vertical-align:top; font-size:14px; padding:0; border:0; height:30px; outline:0; margin:0; color:#288BDE; padding-right:10px; }
+			.article_editor_info select { appearance:none; -moz-appearance:none; -webkit-appearance:none; cursor:pointer; }
+			.article_editor_info select::-ms-expand { display:none; }
+			.article_editor_info2 .con { position:relative; padding-left:180px; }
+			.article_editor_info2 .con .fl { position:absolute; top:0; left:0; }
+			.article_editor_info2 .con .fl .thumb { position:absolute; box-sizing:border-box; width:160px; height:114px; border:2px dashed #EEEEEE; }
+			.article_editor_info2 .con .fr textarea { resize:none; padding:10px; margin:0; width:100%; box-sizing:border-box; line-height:23px; height:114px; border:1px solid #EEEEEE; outline:0; }
+			.article_editor_options { border-top:1px solid #EEEEEE; margin-top:20px; }
+			.article_editor_options .tit { font-size:16px; padding:20px 0 15px 0; }
+			.article_editor_options .con ul { padding:0; margin:0;  list-style:none; border-top:1px solid #EEEEEE; }
+			.article_editor_options .con li .box { position:relative; border:1px solid #EEEEEE; font-size:14px; color:#666666; padding-left:80px; border-top:0; }
+			.article_editor_options .con li .box span { position:absolute; top:0; left:0; line-height:35px; padding-left:10px; }
+			.article_editor_options .con li .box input { outline:0; }
+			.article_editor_options .con li .box input[type=radio],
+			.article_editor_options .con li .box input[type=checkbox] { margin:0; margin-right:5px; vertical-align:-2px; }
+			.article_editor_options .con li .box input[type=text] { border:0; padding:0; margin:0; width:100%; height:35px; }
+			.article_editor_options .con li .box label { display:inline-block; vertical-align:top; line-height:35px; margin-right:10px; cursor:pointer; }
+			.article_editor_savebar { position:absolute; bottom:0; left:0; width:100%; z-index:9999999999; }
+			.article_editor_savebar .fl { float:left; }
+			.article_editor_savebar .fl i { margin-left:8px; font-style:normal; }
+			.article_editor_savebar .fl span { font-size:14px; color:#999999; line-height:30px; }
+			.article_editor_savebar .fr { float:right; }
+			.article_editor_savebar .fr button { border:1px solid #E7E7E7; background:#FFFFFF; box-sizing:border-box; padding:0; padding:0 22px; line-height:30px; margin-left:12px; cursor:pointer; outline:0; }
+			.article_editor_savebar .fr button:first-child { background:#44B549; border-color:#44B549; color:#FFFFFF; }
+			.article_editor_savebar .wrapper { background:#FFFFFF; border:1px solid #EEEEEE; padding:25px 60px; overflow:hidden; border-bottom:0; }
+			.article_editor_textarea { font-size:16px; }
+		</style>
+	</head>
+
+	<body>
+		<section class="article_editor">
+      <a href="../index.html"><img src="../img/back.svg" alt="" class="back"></a>
+			<div class="article_editor_toolbar"></div>
+			<div class="article_editor_content">
+				<div class="wrapper">
+					<div class="article_editor_page">
+						<div class="article_editor_title"><input type="text" placeholder="请在这里输入标题" name="title" max-length="64" id="title_input"></div>
+						<div class="article_editor_info">
+							<select name="" id=""><option value="">资讯中心</option><option value="">驴友分享</option></option></select>
+							<label>
+								<span>发布于</span>
+								<input type="text" class="l" placeholder="2020-01-31 19:47:09" id="keyword_input">
+							</label>
+							<label>
+								<!-- <span>阅读数</span> -->
+								<!-- <input type="text" class="s" placeholder="0"> -->
+							</label>
+						</div>
+						<div class="article_editor_textarea"><textarea id="editor"></textarea></div>
+						<div class="article_editor_options">
+							<div class="article_editor_info2">
+								<div class="tit">摘要</div>
+								<div class="con">
+									<div class="fl"><div class="thumb"></div></div>
+									<div class="fr"><textarea placeholder="选填，摘要会在文章列表页显露，帮助读者快速了解内容，如不填写则默认抓取正文前54字"></textarea></div>
+								</div>
+							</div>
+							<div class="article_editor_setting">
+								<div class="tit">文章设置</div>
+								<div class="con">
+									<ul>
+										<li><div class="box"><span>关键词：</span><input type="text" placeholder="选填，关键字将会影响话题收录，每个关键字用逗号隔开"></div></li>
+										<li><div class="box"><span>推荐位：</span><label><input type="checkbox">头条</label><label><input type="checkbox">推荐</label><label><input type="checkbox">未审核</label></div></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="article_editor_savebar">
+				<div class="wrapper">
+					<div class="fl"><span>正文字数<i class="article_editor_charCount">0</i></span></div>
+					<div class="fr"><button type="submit" id='save' >保存发布</button><button id="chakan">查看发布</button></div>
+				</div>
+			</div>
+		</section>
+		<script>
+					$(window).scroll(setEditFixed);
+					$(document).ready(function(){setEditFixed();initEditor();});
+					$(window).resize(function(){setEditFixed();initEditor();});
+					$("#chakan").click(function(){
+						window.location.href='../html/list.html';
+					})
+					// var title = $('#title_input').val();
+					// var content = $('#keyword_input').val();
+					// var keyword = $('#editor').val();
+					$('#save').click(function(){
+						$.ajax({
+							url:'http://182.92.173.180:8080/api/apidata/add_test_trends',
+							type:'post',
+							data:{
+								title:$('#title_input').val(),
+								content:$('#keyword_input').val(),
+								keyword:$('#editor').val(),
+								temp:'',
+								recog:'',
+								link:'',
+								img:''
+							},
+							success:function(res){
+								console.log(res);
+								if(res.status===1){
+									alert('发布成功！');
+								}
+							}
+						})
+					})
+		</script>
+	</body>
+</html>
